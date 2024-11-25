@@ -2,6 +2,8 @@
 using loops;
 
 Console.WriteLine("Loop Oppgaver");
+Console.WriteLine();
+Console.ReadKey();
 
 var Oppgave1 = new Oppgave1();
 Oppgave1.Run();

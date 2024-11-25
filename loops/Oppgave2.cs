@@ -16,7 +16,16 @@ namespace loops
         
         public void Run()
         {
-            Console.WriteLine("Oppgave 2");
+            Console.WriteLine("Oppgave 2 - foreach-loop");
+            Console.WriteLine("Skriv et ord:");
+            string userInput = Console.ReadLine();
+
+            foreach (char letter in userInput)
+            {
+                Console.WriteLine(letter);
+            }
+            Console.WriteLine();
+            Console.ReadKey();
         }
     }
 }

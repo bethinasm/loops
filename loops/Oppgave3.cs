@@ -22,7 +22,19 @@ namespace loops
 
         public void Run()
         {
-            Console.WriteLine("Oppgave 3");
+            Console.WriteLine("Oppgave 3 - while-loop");
+            bool printMore = true;
+            int i = 1;
+            while (printMore)
+            {
+                if (i > 9)
+                {
+                    printMore = false;
+                }
+                Console.WriteLine("Runde nr: " + i);
+                i++;
+            }
+            Console.ReadKey();
         }
     }
 }

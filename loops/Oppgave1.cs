@@ -15,7 +15,16 @@ namespace loops
 
         public void Run()
         {
-            Console.WriteLine("Oppgave 1");
+            Console.WriteLine("Oppgave 1 - for-loop");
+            Console.ReadKey();
+
+            string text = "Terje er kul";
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine($"{text}");
+            }
+            Console.WriteLine();
+            Console.ReadKey();
         }
     }
 }
